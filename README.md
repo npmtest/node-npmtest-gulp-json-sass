@@ -1,4 +1,7 @@
-# test coverage for  [gulp-json-sass (v0.0.2)](https://github.com/rbalicki2/gulp-json-sass)  [![npm package](https://img.shields.io/npm/v/npmtest-gulp-json-sass.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-gulp-json-sass) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-gulp-json-sass.svg)](https://travis-ci.org/npmtest/node-npmtest-gulp-json-sass)
+# npmtest-gulp-json-sass
+
+#### basic test coverage for  [gulp-json-sass (v0.0.2)](https://github.com/rbalicki2/gulp-json-sass)  [![npm package](https://img.shields.io/npm/v/npmtest-gulp-json-sass.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-gulp-json-sass) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-gulp-json-sass.svg)](https://travis-ci.org/npmtest/node-npmtest-gulp-json-sass)
+
 #### Gulp plugin for turning JSON files into files of scss/sass variable definitions.
 
 [![NPM](https://nodei.co/npm/gulp-json-sass.png?downloads=true&downloadRank=true&stars=true)](https://www.npmjs.com/package/gulp-json-sass)
@@ -7,7 +10,7 @@
 |--:|:--|
 | coverage : | [![istanbul-coverage](https://npmtest.github.io/node-npmtest-gulp-json-sass/build/coverage.badge.svg)](https://npmtest.github.io/node-npmtest-gulp-json-sass/build/coverage.html/index.html)|
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-gulp-json-sass/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-gulp-json-sass/build/test-report.html)|
-| build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-gulp-json-sass/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-gulp-json-sass/tree/gh-pages/build)|
+| test-server-github : | [![github.com test-server](https://npmtest.github.io/node-npmtest-gulp-json-sass/GitHub-Mark-32px.png)](https://npmtest.github.io/node-npmtest-gulp-json-sass/build/app/index.html) | | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-gulp-json-sass/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-gulp-json-sass/tree/gh-pages/build)|
 
 - [https://npmtest.github.io/node-npmtest-gulp-json-sass/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-gulp-json-sass/build/coverage.html/index.html)
 
@@ -80,7 +83,8 @@
         "rm": "rimraf ./coverage",
         "test": "npm run coverage && npm run rm"
     },
-    "version": "0.0.2"
+    "version": "0.0.2",
+    "bin": {}
 }
 ```
 
